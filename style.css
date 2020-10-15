@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(86, 164, 228);
+    margin: 0;
+    padding: 0;
+/*     box-sizing: border-box;
+ */    font-family: sans-serif;
+/*     display: flex;
+ */}
+
+main {
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    margin: 200px 400px;
+    padding: 5px 20px ;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 700px;
+    display: flex;
+/*     flex-direction: column;
+ */ align-items: center;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    /* padding: 20px 5px ; */
+}
+
+.nombre {
+    padding: 0;
+    margin-bottom: 0;
+}
+.usuario {
+    margin-top: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.likes strong {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.share a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;   
+}
